@@ -10626,7 +10626,7 @@ canvas {
   display: block;
 }
 .hero-entry .explore-btn:after {
-  background: url('../../../../assests/images/sprite.png')
+  background: url(//isadoradigitalagency.com/wp-content/themes/id16-theme/images/sprite.png)
     no-repeat 0 -20px;
   content: "";
   height: 21px;
@@ -14971,7 +14971,7 @@ div.fancy-select ul.options li.selected {
   border: 2px solid #00e06d;
 }
 .contact-bottom-section {
-  background: url('../../../../assests/images/bg_image.jpg')
+  background: url(//isadoradigitalagency.com/wp-content/themes/id16-theme/images/bg_image.jpg)
     repeat-x center bottom;
   padding: 14rem 0 12rem;
   position: relative;
@@ -14983,7 +14983,7 @@ div.fancy-select ul.options li.selected {
   padding-bottom: 10.3rem;
 }
 .contact-bottom-section:after {
-  background: url('../../../../assests/images/bg_image.jpg')
+  background: url(//isadoradigitalagency.com/wp-content/themes/id16-theme/images/bg_transp.png)
     no-repeat center bottom;
   width: 858px;
   height: 297px;
