@@ -285,15 +285,15 @@ body {
 
 .rd-button-blue {
 	color: #fcba30;
-	background-color: rgba(252, 186, 48, 0.1);
+	background-color: rgba(52, 164, 241, 0.1);
 }
 .rd-button-orange {
-	color: #fcba30;
+	color: #f16c1f;
 	background-color: rgba(241, 108, 31, 0.1);
 }
 .rd-button-green {
 	color: #fcba30;
-	background-color: rgba(252, 186, 48, 0.1);
+	background-color: rgba(17, 156, 140, 0.1);
 }
 .rd-button-yellow {
 	color: #fcba30;
@@ -1649,11 +1649,11 @@ body {
 }
 .rd-title-line-left {
 	left: -25px;
-	border-left: 1px solid #fcba30;
+	border-left: 1px solid rgba(2, 61, 77, 0.3);
 }
 .rd-title-line-right {
 	right: -25px;
-	border-right: 1px solid #fcba30;
+	border-right: 1px solid rgba(2, 61, 77, 0.3);
 }
 
 .rd-title-ver {
@@ -1707,7 +1707,7 @@ body {
 
 /* Timeline */
 .rd-timeline-card {
-    border-left: 1px solid #fcba30;
+    border-left: 1px solid #1d8295;
 	padding-left: 40px;
 	padding-bottom: 60px;
 }
@@ -1721,7 +1721,7 @@ body {
     content: '';
     width: 13px;
     height: 13px;
-    background-color: #fcba30;
+    background-color: #1d8295;
     position: absolute;
     border-radius: 100%;
     top: 50%;
@@ -1731,7 +1731,7 @@ body {
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
-    border: solid 1px #fcba30;
+    border: solid 1px #1d8295;
     -webkit-box-shadow: inset 0 0 0 1px #fff;
     box-shadow: inset 0 0 0 1.5px #fff;
 }
@@ -1763,7 +1763,7 @@ body {
 	transition: all 0.3s ease-in-out;
 }
 .rd-handle-item:hover .rd-handle-icon {
-	background-color: #fcba30;
+	background-color: #41b680;
 }
 .rd-handle-item:hover .rd-handle-icon path {
 	fill: #fff;
@@ -1811,7 +1811,7 @@ body {
     display: inline-flex;
     width: 38px;
     height: 38px;
-    background-color: #fcba30;
+    background-color: #023d4d;
     color: #fff;
     -webkit-justify-content: center;
     -ms-justify-content: center;
@@ -1821,7 +1821,7 @@ body {
     align-items: center;
     border-radius: 100%;
     font-size: 16px;
-    border: 1px solid #fcba30;
+    border: 1px solid #023d4d;
 	transition: all 0.3s ease-in-out;
 }
 .rd-social-links a:hover {
@@ -1854,7 +1854,7 @@ body {
 	font-size: 18px;
 }
 .rd-value {
-	color: #fcba30;
+	color: #023d4d;
     background-color: #ffffff;
     border-radius: 5px;
     -webkit-box-shadow: 0 0 33px 0 rgba(0, 0, 0, 0.08);
