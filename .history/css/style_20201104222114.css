@@ -73,8 +73,6 @@ body {
 
 .rd-wrap figure {
 	margin-bottom: 0;
-	display: flex;
-	justify-content: center;
 }
 
 .rd-wrap img {
@@ -405,7 +403,7 @@ body {
 }
 
 .rd-mobile-app-bg {
-	background-image: url(../assests/images/bg/group-13630.svg);
+	background-image: url(../img/group-13630.svg);
 }
 
 .rd-fund-raising-bg {
