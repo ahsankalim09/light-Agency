@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Mirrored from www.Light Agency.com/contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 11 Oct 2020 15:06:15 GMT -->
+  <!-- Mirrored from www.ribbash.com/ui-ux.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 11 Oct 2020 15:05:55 GMT -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Us - Light Agency Digital</title>
+    <title>Our Services - UI/UX</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" media="all" />
@@ -37,16 +37,56 @@
 
       gtag("config", "UA-175567433-1");
     </script>
+
+    <style>
+
+      .custom-mobile-mockups {
+        display: none;
+        top: 0px;
+        width: 645px;
+        height: 815px;
+        /* position: absolute; */
+        background: #f1f2b5; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+          to right,
+          #135058,
+          #f1f2b5
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+          to right,
+          #135058,
+          #f1f2b5
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      }
+
+      .custom-mobile-mockups li {
+        margin: 30px;
+        color: white;
+      }
+
+      .custom-mobile {
+        cursor: pointer;
+      }
+
+      .custom-mobile:hover .custom-mobile-mockups {
+        display: block;
+      }
+    </style>
   </head>
 
   <body>
     <div class="rd-wrap">
       <!--Header Section Start-->
-      <header class="rd-header fixed-top rd-header-white">
+      <header class="rd-header rd-header-transparent">
         <div class="container">
-          <nav class="navbar navbar-expand-lg navbar-light px-0 rd-navbar">
-            <a class="navbar-brand rd-logo py-0" href="index.html">
-              <img src="assests/icon/logo-black.svg" alt="logo" />
+          <nav class="navbar navbar-expand-lg navbar-dark px-0 rd-navbar">
+            <a class="navbar-brand rd-logo py-0" href="#">
+              <img
+                class="logo"
+                src="assests/icon/logo-white (1).svg"
+                data-src-alt="assests/icon/logo-black.svg"
+                alt="logo"
+              />
             </a>
             <button
               class="navbar-toggler"
@@ -62,10 +102,8 @@
 
             <div class="collapse navbar-collapse" id="defaultNavbar1">
               <ul class="navbar-nav ml-auto rd-navmenu">
-                <li class="nav-item active">
-                  <a class="nav-link pl-3 pr-3" href="index.html"
-                    >Home <span class="sr-only">(current)</span></a
-                  >
+                <li class="nav-item">
+                  <a class="nav-link pl-3 pr-3" href="index.html">Home</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a
@@ -73,9 +111,6 @@
                     href="#"
                     id="ourWorkDropdown"
                     role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
                     >Our Work</a
                   >
                 </li>
@@ -106,7 +141,7 @@
                           </a>
                         </div>
                         <div class="col">
-                          <a class="dropdown-item" href="ui-ux.html">
+                          <a class="dropdown-item" href="social-media.html">
                             <img
                               src="assests/icon/social media marketing  icon.svg"
                               alt="web-developer-icon"
@@ -115,7 +150,7 @@
                           </a>
                         </div>
                         <div class="col">
-                          <a class="dropdown-item" href="ui-ux.html">
+                          <a class="dropdown-item" href="graphic.html">
                             <img
                               src="assests/icon/web development icon.svg"
                               alt="mobile-developer-icon"
@@ -156,16 +191,12 @@
                     </div>
                   </div>
                 </li>
-                <!-- <li class="nav-item"><a class="nav-link pl-3 pr-3" href="#">Jobs</a></li> -->
                 <li class="nav-item">
-                  <a class="nav-link pl-3 pr-3" href="about-us.html"
-                    >About Us</a
-                  >
+                  <a class="nav-link pl-3 pr-3" href="about-us ">About Us</a>
                 </li>
                 <li class="nav-item px-3 px-lg-0">
                   <a
-				  class="btn btn-light rd-button rd-button-yellow rd-button-effect1 mt-4 wow rubberBand"
-				  style="background-color: #ffd300; color: white;"
+                    class="btn btn-light rd-button rd-button-blue rd-button-effect1 mt-4 wow rubberBand"
                     href="contact-us.html"
                     data-wow-delay="1s"
                     >Contact Us</a
@@ -178,92 +209,268 @@
       </header>
       <!--Header Section End-->
 
-      <!--Get In Touch Section Start-->
-      <section class="rd-pt-180 rd-pb-65">
+      <!--Banner Section Start-->
+      <section
+        class="rd-home-banner rd-gradient-bg-green rd-clip-bg-bottom-right"
+      >
         <div class="container">
-          <div class="row justify-content-md-center">
-            <div class="col-12 col-lg-11">
-              <div class="rd-infobox rd-text-dark mb-5 wow fadeInUp">
-                <h2 class="rd-title rd-title-strip rd-title-strip-green mb-3">
-                  <span class="font-weight-normal">Get in</span>
-                  <span class="font-weight-bold">touch</span>
+          <div class="row">
+            <div class="col-12 col-lg-6 pt-0 pt-lg-5">
+              <div class="rd-infobox text-white wow fadeInUp">
+                <h2 class="rd-title rd-title-strip mb-3">
+                  <span class="font-weight-normal d-block">We Are</span>
+                  <span class="font-weight-bold d-block"
+                    >Digital Marketing Agency</span
+                  >
                 </h2>
-                <p class="rd-text">Let us take your business to next level</p>
+                <p class="rd-text">
+                  We guarantee you top-notch Digital Marketing Services!
+                </p>
+                <a
+                  class="btn btn-light rd-button rd-button-effect1 mt-4 wow rubberBand"
+                  href="contact-us "
+                  data-wow-delay="1s"
+                  >Lets Work</a
+                >
               </div>
             </div>
-          </div>
-          <div class="row justify-content-md-around">
-            <div class="col-12 col-md-5 col-lg-4 col-xl-3 wow fadeInLeft">
-              <div class="rd-contact-detail-wrap mb-5 mb-md-0">
-                <div class="rd-contact-detail mb-5">
-                  <h2 class="rd-mini-title rd-text-green mb-3">
-                    <span class="font-weight-bold">Contact Detail</span>
-                  </h2>
-                  <ul class="rd-contact-info list-inline rd-text-dark mb-0">
-                    <li>
-                      <i class="fas fa-envelope"></i>
-                      <a href="mailto:hello@Light Agency.com"
-                        >hello@lightagency.com</a
+            <div class="col-12 col-lg-6 mt-5 mt-lg-0">
+              <div id="section-home" class="wow fadeInUp">
+                <div class="container-caroussel show-marks">
+                  <div class="wrapper-container-el">
+                    <div class="container-el el-ly">
+                      <div
+                        class="el el-chauffeurprive desktop displayBlock show"
+                        data-el="show-chauffeurprive"
                       >
-                    </li>
-                    <!-- <li>
-										<i class="fas fa-phone-alt"></i>
-										<a href="#">+92 3xx xxxxxxx</a>
-									</li> -->
-                    <li>
-                      <i class="fas fa-map-marker-alt"></i>
-                      <span
-                        >Main Boulevard, Gulberg III, Lahore, Punjab,
-                        Pakistan</span
-                      >
-                    </li>
-                  </ul>
-                </div>
-                <div class="rd-social-links">
-                  <h2 class="rd-mini-title rd-text-green mb-3">
-                    <span class="font-weight-bold">Follow us</span>
-                  </h2>
-                  <ul class="rd-social-links list-inline mb-0">
-                    <li class="list-inline-item">
-                      <a
-                        target="_blank"
-                        ><i class="fab fa-facebook-f"></i
-                      ></a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a
-                       
-                        target="_blank"
-                        ><i class="fab fa-instagram"></i
-                      ></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 wow fadeInRight">
-              <div class="rd-location">
-                <h2 class="rd-mini-title rd-text-green mb-3">
-                  <span class="font-weight-bold">Location</span>
-                </h2>
-                <div class="rd-map">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27213.593394060907!2d74.32574853281356!3d31.504951607962795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919045a28ff1d39%3A0xf71e739b84b3c3c!2sGulberg%20III%2C%20Lahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1593698321407!5m2!1sen!2s"
-                    width="100%"
-                    height="260"
-                    frameborder="0"
-                    style="border: 0"
-                    allowfullscreen=""
-                    aria-hidden="false"
-                    tabindex="0"
-                  ></iframe>
+                        <!-- <a href="#" class="delay link-zone"></a> -->
+                        <div class="container-illu">
+                          <div class="container-obj">
+                            <div class="rd-obj-slop"></div>
+                          </div>
+                          <div class="container-device">
+                            <div class="device desktop">
+                              <div class="head">
+                                <div class="ptn"></div>
+                                <div class="ptn"></div>
+                                <div class="ptn"></div>
+                              </div>
+                              <div class="container-screen">
+                                <img
+                                  src="assests/images/bg/social media illustration.png"
+                                  alt="nomad"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="desc">
+                          <h2>Social Media Marketing</h2>
+                          <div class="container-p">
+                            <p>
+                              We had the opportunity to work with Nomad a
+                              platform where you find like minded people while
+                              traveling
+                            </p>
+                          </div>
+                        </div>
+                      </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!--Get In Touch Section End-->
+      <!--Banner Section End-->
+
+      <!--Services Section Start-->
+      <section class="rd-pt-180 rd-pb-65">
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <div class="col-12 col-md-10 col-lg-6">
+              <div class="rd-infobox text-center rd-text-dark wow fadeInUp">
+                <h2
+                  class="rd-title rd-title-strip rd-title-strip-green rd-title-strip-center mb-3"
+                >
+                  <span class="font-weight-normal">We do</span>
+                  <span class="font-weight-bold">Social Media Marketing Service</span>
+                </h2>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <p class="rd-text">
+                In this Information age, social media marketing has opened new avenues for reaching mass audiences without spending a fortune for many medium and small-sized businesses. The marketing for the first time is not only the game of big companies that requiring heavy fees for buying airtime for commercials.
+              </p>
+            </div>
+            <div class="col-md-12">
+              <p class="rd-text">
+                The days of expensive advertisements are long gone. It is all thanks to the Internet. Light Web Marketing Agency offers you social media marketing services for an even more affordable value with the same reach and ad quality that would place your business in front of your would-be customers and take your business to new heights.“Social Media Marketing Will Get you more Leads, Sales, and Revenue”
+              </p>
+            </div>
+            <div class="col-md-12">
+              <p class="rd-text">
+                If you want to survive as a business, no matter what size, social media marketing is a must. You must have a professional social media marketing strategy in place to grow your business. Light Web Marketing Agency is here to help you to form a solid presence on all the top social media platforms. Leave the heavy lifting work to us.
+                
+              </p>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+              <h1 class="font-weight-bold">Our Social Media Marketing Services</h1>
+            <div class="col-12 col-md-11">
+              <div class="rd-timeline-wrap mt-5">
+                <div class="rd-timeline-card rd-text-dark wow fadeInUp">
+                  <figure class="mb-3">
+                    <img src="img/ui-ux-icon.svg" alt="service" />
+                  </figure>
+                  <h4 class="rd-mini-title mb-1">Our Social Media Marketing Services</h4>
+                  <p class="rd-sub-text mb-0">
+                    Ribbash caters every user experience to give our business, a
+                    boost in the market. The experienced designers at Ribbash
+                    make sure that the UI/ UX design services must be equipped
+                    with the solutions that a user may expect while visiting the
+                    website. The design team of Ribbash is professional,
+                    innovative, and have all expertise that can keep the firm at
+                    the top throughout.
+                  </p>
+                </div>
+                <div class="rd-timeline-card rd-text-dark wow fadeInUp">
+                  <figure class="mb-3">
+                    <img src="img/user-friendly.svg" alt="service" />
+                  </figure>
+                  <h4 class="rd-mini-title mb-1">Facebook Management Services</h4>
+                  <p class="rd-sub-text mb-0">
+                    We keep the products easy to understand for the users. It
+                    improves the customer satisfaction that is the first and
+                    foremost goal of any organization. It does not mean that we
+                    compromise on functionality and usability of the product, as
+                    we deliver interactive solutions to our valued clients.
+                  </p>
+                </div>
+                <div class="rd-timeline-card rd-text-dark wow fadeInUp">
+                  <figure class="mb-3">
+                    <img src="img/uniqueness.svg" alt="service" />
+                  </figure>
+                  <h4 class="rd-mini-title mb-1">Linkedin Management</h4>
+                  <p class="rd-sub-text mb-0">
+                    To help the businesses become unique and innovative, it is a
+                    must to keep the comple products attractive and functional
+                    simultaneously. Our designers at Ribbash know its value, and
+                    keep the products unique for giving the businesses a chance
+                    create a difference from others.
+                  </p>
+                </div>
+                <div class="rd-timeline-card rd-text-dark wow fadeInUp">
+                  <figure class="mb-3">
+                    <img src="img/graphical.svg" alt="service" />
+                  </figure>
+                  <h4 class="rd-mini-title mb-1">Twitter Management</h4>
+                  <p class="rd-sub-text mb-0">
+                    Visualization is what plays the biggest role in keeping the
+                    customers engaged with your product. The visual influence
+                    makes a product unique, attractive, and professionally
+                    authenticated, and at Ribbash, we keep focusing on it to
+                    help you improve user experience at the maximum level.
+                  </p>
+                </div>
+                <div class="rd-timeline-card rd-text-dark wow fadeInUp">
+                    <figure class="mb-3">
+                      <img src="img/graphical.svg" alt="service" />
+                    </figure>
+                    <h4 class="rd-mini-title mb-1">YouTube advertising</h4>
+                    <p class="rd-sub-text mb-0">
+                      Visualization is what plays the biggest role in keeping the
+                      customers engaged with your product. The visual influence
+                      makes a product unique, attractive, and professionally
+                      authenticated, and at Ribbash, we keep focusing on it to
+                      help you improve user experience at the maximum level.
+                    </p>
+                  </div>
+                  <div class="rd-timeline-card rd-text-dark wow fadeInUp">
+                    <figure class="mb-3">
+                      <img src="img/graphical.svg" alt="service" />
+                    </figure>
+                    <h4 class="rd-mini-title mb-1">Pinterest Management</h4>
+                    <p class="rd-sub-text mb-0">
+                      Visualization is what plays the biggest role in keeping the
+                      customers engaged with your product. The visual influence
+                      makes a product unique, attractive, and professionally
+                      authenticated, and at Ribbash, we keep focusing on it to
+                      help you improve user experience at the maximum level.
+                    </p>
+                  </div>
+                  <div class="rd-timeline-card rd-text-dark wow fadeInUp">
+                    <figure class="mb-3">
+                      <img src="img/graphical.svg" alt="service" />
+                    </figure>
+                    <h4 class="rd-mini-title mb-1">Instagram Management</h4>
+                    <p class="rd-sub-text mb-0">
+                      Visualization is what plays the biggest role in keeping the
+                      customers engaged with your product. The visual influence
+                      makes a product unique, attractive, and professionally
+                      authenticated, and at Ribbash, we keep focusing on it to
+                      help you improve user experience at the maximum level.
+                    </p>
+                  </div>
+                  <div class="rd-timeline-card rd-text-dark wow fadeInUp">
+                    <figure class="mb-3">
+                      <img src="img/graphical.svg" alt="service" />
+                    </figure>
+                    <h4 class="rd-mini-title mb-1">Houzz Advertising</h4>
+                    <p class="rd-sub-text mb-0">
+                      Visualization is what plays the biggest role in keeping the
+                      customers engaged with your product. The visual influence
+                      makes a product unique, attractive, and professionally
+                      authenticated, and at Ribbash, we keep focusing on it to
+                      help you improve user experience at the maximum level.
+                    </p>
+                  </div>
+                  <div class="rd-timeline-card rd-text-dark wow fadeInUp">
+                    <figure class="mb-3">
+                      <img src="img/graphical.svg" alt="service" />
+                    </figure>
+                    <h4 class="rd-mini-title mb-1">Specialized Social Media Marketing Services</h4>
+                    <p class="rd-sub-text mb-0">
+                      Visualization is what plays the biggest role in keeping the
+                      customers engaged with your product. The visual influence
+                      makes a product unique, attractive, and professionally
+                      authenticated, and at Ribbash, we keep focusing on it to
+                      help you improve user experience at the maximum level.
+                    </p>
+                  </div>
+                  <div class="rd-timeline-card rd-text-dark wow fadeInUp">
+                    <figure class="mb-3">
+                      <img src="img/graphical.svg" alt="service" />
+                    </figure>
+                    <h4 class="rd-mini-title mb-1">Influencer Marketing</h4>
+                    <p class="rd-sub-text mb-0">
+                      Visualization is what plays the biggest role in keeping the
+                      customers engaged with your product. The visual influence
+                      makes a product unique, attractive, and professionally
+                      authenticated, and at Ribbash, we keep focusing on it to
+                      help you improve user experience at the maximum level.
+                    </p>
+                  </div>
+                  <div class="rd-timeline-card rd-text-dark wow fadeInUp">
+                    <figure class="mb-3">
+                      <img src="img/graphical.svg" alt="service" />
+                    </figure>
+                    <h4 class="rd-mini-title mb-1">Houzz Advertising</h4>
+                    <p class="rd-sub-text mb-0">
+                      Visualization is what plays the biggest role in keeping the
+                      customers engaged with your product. The visual influence
+                      makes a product unique, attractive, and professionally
+                      authenticated, and at Ribbash, we keep focusing on it to
+                      help you improve user experience at the maximum level.
+                    </p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Services Section End-->
+
+
 
       <!--Contact Form Section Start-->
       <section class="rd-contact-form-section rd-pt-65">
@@ -280,7 +487,7 @@
             </div>
             <form
               class="rd-contact-form"
-              action="https://www.Light Agency.com/includes/contact-form-handler.php"
+              action="https://www.ribbash.com/includes/contact-form-handler.php"
               method="post"
             >
               <div class="row">
@@ -301,7 +508,7 @@
                     name="email"
                     id="email"
                     class="form-control"
-                    placeholder="johnsmiths@Light Agency.com"
+                    placeholder="johnsmiths@ribbash.com"
                     required
                   />
                 </div>
@@ -482,17 +689,14 @@
             <div class="row text-white">
               <div class="col-12 col-md-4">
                 <div class="rd-footer-intro">
-                  <a
-                    class="rd-footer-logo d-inline-block mb-4"
-                    href="index-2.html"
-                  >
+                  <a class="rd-footer-logo d-inline-block mb-4" href="index-2 ">
                     <img src="assests/icon/logo-white (1).svg" alt="logo" />
                   </a>
                   <p class="mb-0">
                     When someone thinks web designing, development, mobile app
                     development, IoT, Business Automation Processes, graphic
                     designing, and E-Commerce Business Solutions, he will think
-                    Light Agency.
+                    Light Web Agenecy.
                   </p>
                 </div>
               </div>
@@ -501,12 +705,12 @@
                   <div class="col-12 col-md-4">
                     <h4 class="rd-sub-title mt-4 mb-3">Quick Links</h4>
                     <ul class="rd-footer-list rd-quick-links list-inline mb-0">
-                      <li><a href="ui-ux.html">UI/UX Design</a></li>
+                      <li><a href="ui-ux ">UI/UX Design</a></li>
                       <li>
-                        <a href="web-development.html">Website Development</a>
+                        <a href="web-development ">Website Development</a>
                       </li>
                       <li>
-                        <a href="mobile-development.html">Mobile Development</a>
+                        <a href="mobile-development ">Mobile Development</a>
                       </li>
                     </ul>
                   </div>
@@ -518,11 +722,19 @@
                       >
                         <li>
                           <i class="fab fa-facebook-f"></i>
-                          <a target="_blank">Facebook</a>
+                          <a
+                            href="http://facebook.com/ Light Web Agenecydigital"
+                            target="_blank"
+                            >Facebook</a
+                          >
                         </li>
                         <li>
                           <i class="fab fa-instagram"></i>
-                          <a target="_blank">Instagram</a>
+                          <a
+                            href="http://instagram.com/ Light Web Agenecydigital"
+                            target="_blank"
+                            >Instagram</a
+                          >
                         </li>
                       </ul>
                     </div>
@@ -535,8 +747,8 @@
                       >
                         <li>
                           <i class="fas fa-envelope"></i>
-                          <a href="mailto:hello@Light Agency.com"
-                            >hello@light.com</a
+                          <a href="mailto:hello@ Light Web Agenecy.com"
+                            >hello@ Light Web Agenecy.com</a
                           >
                         </li>
                         <li class="d-flex align-items-baseline">
@@ -559,7 +771,7 @@
             <div class="row">
               <div class="col-12 text-center">
                 <p class="rd-sub-text mb-0 font-weight-normal">
-                  ©2020 - Light Agency | All Right Reserved
+                  ©2020 - Light Web Agenecy| All Right Reserved
                 </p>
               </div>
             </div>
@@ -582,5 +794,5 @@
     <script src="js/custom-script.js"></script>
   </body>
 
-  <!-- Mirrored from www.Light Agency.com/contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 11 Oct 2020 15:06:15 GMT -->
+  <!-- Mirrored from www.ribbash.com/ui-ux.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 11 Oct 2020 15:05:59 GMT -->
 </html>
