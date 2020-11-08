@@ -67,7 +67,7 @@
 
 body {
 	/* font-family: 'Ubuntu', sans-serif; */
-	font-family: 'Objectivity', Harijadi;
+	font-family: 'Objectivity', sans-serif;
 	background-color: #0000001a;
 }
 
@@ -1900,8 +1900,4 @@ body {
 .rd-contact-form .g-recaptcha > div {
     margin-left: auto;
     margin-right: auto;
-}
-
-.span{
-	font-family: Harijadi !important;
 }
