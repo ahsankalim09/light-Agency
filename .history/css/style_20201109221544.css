@@ -66,22 +66,11 @@
 
 
 body {
-	cursor: url('./../assests/icon/download.svg') ,auto;
+	cursor: url(data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" height="24" width="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="%231a1a1a" /></svg>) 12 12,auto;
     background: #fff;
 	font-family: 'Objectivity', Harijadi;
 	background-color: #0000001a;
 }
-
-
-button{
-	cursor: url('./../assests/icon/yellow.svg') ,auto;
-}
-
-img,a,footer, button, wrapper-container-el {
-	cursor: url('./../assests/icon/yellow.svg') ,auto !important;
-}
-
-
 
 .rd-wrap figure {
 	margin-bottom: 0;
@@ -418,7 +407,6 @@ img,a,footer, button, wrapper-container-el {
 
 .rd-mobile-app-bg {
 	background-image: url(../assests/images/bg/group-13630.svg);
-	cursor: url('./../assests/icon/yellow.svg') ,auto !important;
 }
 
 .rd-fund-raising-bg {
