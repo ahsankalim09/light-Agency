@@ -250,8 +250,8 @@ img,a,footer, button, wrapper-container-el {
 
 /*Sub Title*/
 .rd-sub-title {
-	font-size: 25px;
-	font-weight:bolder;
+	font-size: 30px;
+	font-weight: bold;
 	line-height: 1.2;
 	text-transform: capitalize;
 }
