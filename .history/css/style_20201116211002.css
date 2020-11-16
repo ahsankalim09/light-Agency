@@ -68,7 +68,7 @@
 body {
 	cursor: url('./../assests/icon/download.svg') ,auto;
     background: #fff;
-	font-family: Cambria;
+	font-family: Harijadi;
 	background-color: #0000001a;
 	width: 100%;
 	overflow-x: hidden;
@@ -256,11 +256,10 @@ img,a,footer, button, wrapper-container-el {
 
 /*Sub Title*/
 .rd-sub-title {
-	font-size: 27px;
-	font-weight:bold;
+	font-size: 25px;
+	font-weight:bolder;
 	line-height: 1.2;
 	text-transform: capitalize;
-	font-family: Harijadi !important;
 }
 
 /* Mini Title */

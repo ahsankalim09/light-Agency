@@ -256,11 +256,11 @@ img,a,footer, button, wrapper-container-el {
 
 /*Sub Title*/
 .rd-sub-title {
-	font-size: 27px;
+	font-size: 25px;
 	font-weight:bold;
 	line-height: 1.2;
 	text-transform: capitalize;
-	font-family: Harijadi !important;
+	font-family: Harijadi;
 }
 
 /* Mini Title */
