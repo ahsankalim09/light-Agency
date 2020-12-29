@@ -1174,7 +1174,7 @@ input::-moz-focus-inner {
   padding: 0;
   outline: 0;
   border: none;
-  width: 180px;
+  width: 150px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -2781,9 +2781,9 @@ footer .row {
   padding: 0;
   outline: 0;
   border: none;
-  width: 200px;
-  /* height: 28px; */
-  background: url(../images/Softive\ Solutions.png) no-repeat center;
+  width: 85px;
+  height: 28px;
+  /* background: url(../images/logo-footer.png) no-repeat center; */
   background-size: 85px 28px;
   font: 0/0 a;
   text-shadow: none;
