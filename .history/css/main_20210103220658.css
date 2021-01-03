@@ -2090,7 +2090,7 @@ html.no-csstransitions .home-content__main {
   transition: all 0.5s ease-in-out;
   z-index: 1;
 }
-/* .item-folio__thumb a::after {
+.item-folio__thumb a::after {
   content: "+";
   font-family: georgia, serif;
   font-size: 2.7rem;
@@ -2113,7 +2113,7 @@ html.no-csstransitions .home-content__main {
   -ms-transform: scale(0.5);
   transform: scale(0.5);
   z-index: 1;
-} */
+}
 .item-folio__text {
   position: absolute;
   left: 0;
@@ -2166,7 +2166,7 @@ html.no-csstransitions .home-content__main {
   font-size: 1.8rem;
   line-height: 4.2rem;
 }
-/* .item-folio__project-link::before {
+.item-folio__project-link::before {
   display: block;
   content: "";
   height: 3rem;
@@ -2175,7 +2175,7 @@ html.no-csstransitions .home-content__main {
   position: absolute;
   top: -3rem;
   left: 50%;
-} */
+}
 .item-folio__project-link:hover,
 .item-folio__project-link:focus,
 .item-folio__project-link:active {
